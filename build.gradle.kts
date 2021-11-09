@@ -3,7 +3,10 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 buildscript {
     repositories {
         mavenCentral()
-        jcenter()
+        maven {
+            url = uri("http://oss.jfrog.org/artifactory/oss-snapshot-local/")
+            isAllowInsecureProtocol = true
+        }
         gradlePluginPortal()
     }
     dependencies {
@@ -19,7 +22,7 @@ plugins {
 }
 
 subprojects {
-    group = "com.example.template"
+    group = "ru.emildorado"
 
     repositories {
         mavenCentral()

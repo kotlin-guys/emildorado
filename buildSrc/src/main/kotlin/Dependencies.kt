@@ -1,5 +1,5 @@
 object Vers {
-    const val kotlin = "1.4.20"
+    const val kotlin = "1.5.0"
 
     const val springBoot = "2.4.2"
 
