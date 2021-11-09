@@ -1,4 +1,4 @@
 FROM adoptopenjdk/openjdk11:alpine-jre
 
-COPY ./build/libs/template-app.jar template-app.jar
-CMD ["java", "-Xmx128m", "-jar", "template-app.jar"]
+COPY ./build/libs/emildorado.jar emildorado.jar
+CMD ["java", "-Xmx128m", "-jar", "emildorado.jar"]

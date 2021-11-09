@@ -1,3 +1,3 @@
-rootProject.name = "spring-boot-kotlin-gradle-template"
+rootProject.name = "emildorado"
 
-include("template-app")
+include("emildorado")
