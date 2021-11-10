@@ -1,14 +1,14 @@
 object Vers {
-    const val kotlin = "1.5.0"
+    const val kotlin = "1.5.21"
 
-    const val springBoot = "2.4.2"
+    const val springBoot = "2.5.6"
 
-    const val postgres = "42.2.18"
+    const val postgres = "42.3.1"
     const val postgresR2dbc = "0.8.3.RELEASE"
     const val liquibase = "4.2.2"
 
-    const val reactorTest = "3.4.2"
-    const val jacksonKotlin = "2.12.1"
+    const val reactorTest = "3.4.12"
+    const val jacksonKotlin = "2.13.0"
     const val jaxb = "2.3.1"
     const val swagger = "3.0.0"
 
@@ -27,7 +27,6 @@ object Libs {
 
     const val jacksonKotlin = "com.fasterxml.jackson.module:jackson-module-kotlin:${Vers.jacksonKotlin}"
     const val postgres = "org.postgresql:postgresql:${Vers.postgres}"
-    const val postgresR2dbc = "io.r2dbc:r2dbc-postgresql:${Vers.postgresR2dbc}"
     const val liquibase = "org.liquibase:liquibase-core:${Vers.liquibase}"
 
     const val reactorTest = "io.projectreactor:reactor-test:${Vers.reactorTest}"

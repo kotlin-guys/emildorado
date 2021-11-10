@@ -6,9 +6,11 @@ plugins {
 
 repositories {
     mavenCentral()
-    jcenter()
     maven(url = "https://repo.spring.io/milestone/")
-    maven(url = "http://oss.jfrog.org/artifactory/oss-snapshot-local/")
+    maven {
+        url = uri("http://oss.jfrog.org/artifactory/oss-snapshot-local/")
+        isAllowInsecureProtocol = true
+    }
 }
 
 dependencies {

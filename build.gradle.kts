@@ -3,10 +3,6 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 buildscript {
     repositories {
         mavenCentral()
-        maven {
-            url = uri("http://oss.jfrog.org/artifactory/oss-snapshot-local/")
-            isAllowInsecureProtocol = true
-        }
         gradlePluginPortal()
     }
     dependencies {
