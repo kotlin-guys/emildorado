@@ -12,6 +12,7 @@ object Vers {
     const val jaxb = "2.3.1"
     const val swagger = "3.0.0"
 
+    const val kotlinLogging = "2.0.11"
 }
 
 object Libs {
@@ -39,5 +40,7 @@ object Libs {
     const val springWeb = "org.springframework.boot:spring-boot-starter-web:${Vers.springBoot}"
     const val springHateoas = "org.springframework.boot:spring-boot-starter-hateoas:${Vers.springBoot}"
     const val springDataRest = "org.springframework.boot:spring-boot-starter-data-rest:${Vers.springBoot}"
+
+    const val kotlinLogging = "io.github.microutils:kotlin-logging:${Vers.kotlinLogging}"
 
 }

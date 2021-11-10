@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: emildorado-deployment
+  labels:
+    app: emildorado
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: emildorado
+  template:
+    metadata:
+      labels:
+        app: emildorado
+    spec:
+      containers:
+        - name: emildorado
+          image: emildorado:0.0.1
+          ports:
+            - containerPort: 8080

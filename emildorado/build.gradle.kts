@@ -25,6 +25,8 @@ dependencies {
 
     implementation(Libs.springWeb)
 
+    implementation(Libs.kotlinLogging)
+
     testImplementation(Libs.springTest) {
         exclude("org.junit.vintage", "junit-vintage-engine")
     }
